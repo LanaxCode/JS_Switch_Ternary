@@ -9,7 +9,7 @@ function check() {
     // console.log(num.value)
     let passSave = password.value.length >= 8
 
-    passSave ? text.innerHTML = "Welcome to your Account" : text.innerHTML = "Your Password is short"
+    passSave ? text.innerHTML = "<span style='color: green;'>Welcome to your Account</span>" : text.innerHTML = "<span style='color: red;'>Your Password is to short</span>"
 }
 
 
